@@ -17,7 +17,8 @@ else {
     if (mysqli_num_rows($result) == 1) {
         header("location: home.php"); //Redirect to new page
     } else {
-        echo "Invalid username/password combination";
+        echo "Compare result:" . $result ;
+
     }
 
 }
