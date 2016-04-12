@@ -18,7 +18,7 @@ else {
     if (mysqli_num_rows($result) == 1) {
         header("location: home.php"); //Redirect to new page
     } else {
-        echo "Compare result:" . $result ;
+        echo "Compare result:" . (string)$result ;
 
     }
 
