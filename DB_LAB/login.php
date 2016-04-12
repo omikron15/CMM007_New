@@ -14,6 +14,7 @@ else {
 
     $result = mysqli_query($db, $sql);
 
+
     if (mysqli_num_rows($result) == 1) {
         header("location: home.php"); //Redirect to new page
     } else {
