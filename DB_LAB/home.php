@@ -18,6 +18,8 @@ foreach($result as $row){
     echo "".$row[username]."<br/>";
 
 }
+
+echo $test;
 //echo $result;
 
 ?>
