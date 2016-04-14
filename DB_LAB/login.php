@@ -16,7 +16,7 @@ else {
 
 
     if (mysqli_num_rows($result) == 1) {
-        header("location: home.php?user1=josh"); //Redirect to new page
+        header("location: homme.php?user1=josh"); //Redirect to new page
     } else {
         echo "invalid login details";
 
