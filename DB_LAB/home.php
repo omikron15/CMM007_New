@@ -14,7 +14,11 @@ $sql = "SELECT username FROM users";
 
 $result = mysqli_query($db, $sql);
 echo "Blah blah";
-echo $result;
+foreach($result as $row){
+
+    echo "".$row[username];
+}
+//echo $result;
 
 ?>
 
