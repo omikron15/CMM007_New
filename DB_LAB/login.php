@@ -24,9 +24,6 @@ else {
 
     }
 
-    session_start();
-    $session['username_pass'] = username;
-    $session['password_pass'] = ["password"];
 
 }
 
