@@ -7,5 +7,17 @@
 <body>
 <h1>Hello</h1>
 
+<?php
+include("connection.php");
+
+$sql = "SELECT username FROM users";
+
+$result = mysqli_query($db, $sql);
+
+echo $result;
+
+?>
+
+
 </body>
 </html>
