@@ -13,7 +13,7 @@ include("connection.php");
 $sql = "SELECT username FROM users";
 
 $result = mysqli_query($db, $sql);
-
+echo "Blah blah";
 echo $result;
 
 ?>
