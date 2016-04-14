@@ -11,7 +11,7 @@
 include("connection.php");
 
 
-$user = $_GET['user1'];
+$user = $_GET['username'];
 
 $sql = "SELECT username FROM users";
 
