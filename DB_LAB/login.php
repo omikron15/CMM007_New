@@ -20,7 +20,7 @@ else {
     } else {
         //problems with this whole if statment so i tried to get the fail condition to also display the result of the comparison.
         //it didnt work
-        echo "Compare result:" . (string)$result ;
+        echo $sql ;
 
     }
 
