@@ -16,7 +16,8 @@ $result = mysqli_query($db, $sql);
 echo "Blah blah";
 foreach($result as $row){
 
-    echo "".$row[username];
+    echo "".$row[username]."\n";
+
 }
 //echo $result;
 
