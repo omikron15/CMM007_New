@@ -9,6 +9,7 @@
 
 <?php
 include("connection.php");
+include("login.php");
 
 $sql = "SELECT username FROM users";
 
@@ -19,8 +20,7 @@ foreach($result as $row){
 
 }
 
-echo $test;
-//echo $result;
+echo "The logged in user is: ". $username;
 
 ?>
 
