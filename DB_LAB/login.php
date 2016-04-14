@@ -16,11 +16,9 @@ else {
 
 
     if (mysqli_num_rows($result) == 1) {
-        header("location: home.php"); //Redirect to new page
+        header("location: home.php?username = ".$username); //Redirect to new page
     } else {
-        //problems with this whole if statment so i tried to get the fail condition to also display the result of the comparison.
-        //it didnt work
-        echo $sql ;
+        echo "invalid login details";
 
     }
 

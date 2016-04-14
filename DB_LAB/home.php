@@ -9,7 +9,9 @@
 
 <?php
 include("connection.php");
-include("login.php");
+
+
+$user = $_GET['username'];
 
 $sql = "SELECT username FROM users";
 
@@ -20,7 +22,7 @@ foreach($result as $row){
 
 }
 
-echo "The logged in user is: ". $username;
+echo "The logged in user is: ". $user;
 
 ?>
 
