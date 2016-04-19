@@ -9,7 +9,7 @@
 <form action="display.php" method="post">
 
     Name:<br>
-    <label>Name</label><input type ="text" name="Name"> <br>
+    <input type ="text" name="Name"> <br>
 
     Gender:<br>
     <input type ="text" name="Gender"> <br>
