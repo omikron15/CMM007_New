@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>PHP Login Form without Session</title>
+    <title>HelloWorld2</title>
 </head>
 <body>
 <h1>Planets</h1>
