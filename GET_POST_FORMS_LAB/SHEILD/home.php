@@ -10,8 +10,10 @@
 
     Name:<br>
     <label>Name</label><input type ="text" name="Name"> <br>
+
     Gender:<br>
     <input type ="text" name="Gender"> <br>
+
     Power:<br>
     <input type ="text" name="Power"> <br>
 

@@ -1,8 +1,8 @@
 <?php
 
-    $Name = $_post["Name"];
-    $Gender = $_post["Gender"];
-    $Power = $_post["Power"];
+    $Name = $_POST["Name"];
+    $Gender = $_POST["Gender"];
+    $Power = $_POST["Power"];
 
 echo "Name: " . $Name . "<br>";
 echo "Gender: " . $Gender . "<br>";
