@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1005104
- * Date: 19/04/2016
- * Time: 10:19
- */
+
+    $Name = $_post["Name"];
+    $Gender = $_post["Gender"];
+    $Power = $_post["Power"];
+
+echo "Name: " . $Name . "<br>";
+echo "Gender: " . $Gender . "<br>";
+echo "Power: " . $Power . "<br>";
+
+?>

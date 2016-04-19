@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form>
+<form action="display.php" method="post">
 
     Name:<br>
     <input type ="text" name="Name"> <br>
