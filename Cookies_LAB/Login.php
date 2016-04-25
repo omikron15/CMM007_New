@@ -9,7 +9,7 @@
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
-    <form>
+    <form method="post" action="Login.php">
         <label>Username:</label><br>
         <input type="text" name="username" placeholder="username"
             /><br><br>
@@ -19,7 +19,7 @@
         <input type="submit" name="submit" value = "login"/>
     </form>
     <div class="error"><?php //echo $error;?><?php //echo $username; echo
-        $password;?></div>
+        ;?></div>
 </div>
 </body>
 </html>
