@@ -1,7 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1005104
- * Date: 25/04/2016
- * Time: 09:59
- */
+
+echo $_COOKIE['Username'] . "<br/>";
+
+function displayAccessLevelInformation($access_level) {
+    if ($access_level == "LEVEL_1") {
+        echo "<p>You are currently logged in as a standard user</p>";
+    }
+    elseif ($access_level == "root") {
+        echo "<p>You are currently logged in as a root user</p>";
+        echo "<p>You now have access to additional administrative features</p>";
+    }
+}
+
+
+
+?>
