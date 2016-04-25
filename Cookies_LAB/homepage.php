@@ -1,6 +1,7 @@
 <?php
 
 echo $_COOKIE['Username'] . "<br/>";
+displayAccessLevelInformation($_COOKIE['Access_Level']);
 
 function displayAccessLevelInformation($access_level) {
     if ($access_level == "LEVEL_1") {
