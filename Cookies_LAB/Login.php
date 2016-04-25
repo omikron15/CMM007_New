@@ -9,7 +9,7 @@
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
-    <form method="post" action="Login.php">
+    <form method="post" action="Process.php">
         <label>Username:</label><br>
         <input type="text" name="username" placeholder="username"
             /><br><br>
