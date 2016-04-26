@@ -13,6 +13,7 @@ else if ($Username_C == $_POST['username'] && $Password_C == $_POST['password'])
 //    setcookie('Access_Level', 'LEVEL_1');
 //    setcookie('Username',$_POST['username']);
     session_start();
+    header("location: homepage.php?user1=".$Username_C);
     $_SESSION['User'] = $_POST['username'];
     $_SESSION['Access_Level'] = 'LEVEL_1';
 
