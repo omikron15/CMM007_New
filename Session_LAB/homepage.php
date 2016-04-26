@@ -1,6 +1,7 @@
 <?php
 
 //echo $_COOKIE['Username'] . "<br/>";
+session_start();
 echo $_SESSION['User'] . "<br/>";
 displayAccessLevelInformation($_SESSION['Access_Level']);
 
