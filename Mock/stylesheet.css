@@ -1,26 +1,28 @@
 #header {
     height: 75px;
-    background-color: aqua;
     margin-bottom: 10px;
 }
 
 #navigation{
     float: left;
-    width: 24%;
-    background-color:crimson;
+    width: 20%;
+    margin-right: 1%;
+    border: dotted;
     margin-bottom: 10px;
 }
 
 #content{
     float: right;
-    width: 74%;
-    background-color: blueviolet;
+    width: 79%;
+    border: dotted;
     margin-bottom: 10px;
 }
 
 #footer{
 
-    background-color: aquamarine;
+    border: dotted;
+    height: 25px;
+    width: 98%;
     clear: both;
 }
 
@@ -32,10 +34,5 @@ img{
     display: inline-block;
 }
 
-#heading{
-    display: inline-block;
-    height: 80%;
-    padding-left: 5px;
-    background-color: azure;
-}
+
 
