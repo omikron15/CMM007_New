@@ -1,5 +1,7 @@
 #header {
-   margin: auto;
+   height: 50px;
+    background-color: aqua;
+    margin-bottom: 10px;
 }
 
 #navigation{
