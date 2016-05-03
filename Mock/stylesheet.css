@@ -85,5 +85,6 @@ textarea {
 #showcontent {
     margin-top: 15px;
     margin-left: 15px;
-    border-bottom: thin;
+    border-bottom: thin black;
+    border-style: solid;
 }
