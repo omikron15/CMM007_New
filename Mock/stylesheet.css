@@ -12,6 +12,12 @@
 
 #footer{
 
-    
+
     clear: both;
+}
+
+#image{
+    height:100px;
+    width:100px;
+
 }
