@@ -19,11 +19,11 @@
 
 
 <div id = "navigation"> <br>
-    <a href="showbugs.html">Android Bugs</a> <br>
+    <a href="NOTshowbugs.html">Android Bugs</a> <br>
     <br>
-    <a href="showbugs.html">iOS Bugs</a> <br>
+    <a href="NOTshowbugs.html">iOS Bugs</a> <br>
     <br>
-    <a href="showbugs.html">Windows Bugs</a> <br>
+    <a href="NOTshowbugs.html">Windows Bugs</a> <br>
     <br>
     <a href="addbugs.html">Insert Bugs</a> <br>
     <br>
