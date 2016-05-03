@@ -68,8 +68,6 @@ a {
 form {
     margin-top: 15px;
     margin-left: 15px;
-
-
 }
 
 label{
@@ -82,4 +80,9 @@ label{
 
 textarea {
     margin-top: 10px;
+}
+
+#showcontent {
+    margin-top: 15px;
+    margin-left: 15px;
 }
