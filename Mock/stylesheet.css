@@ -16,7 +16,7 @@
 #content{
     float: right;
     position: relative;
-    width: 78%;
+    width: 79%;
     border: dotted;
     margin-bottom: 10px;
     height: 500px;
@@ -61,6 +61,6 @@ img{
 
 a {
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
 }
