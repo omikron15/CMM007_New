@@ -1,6 +1,7 @@
 #header {
     height: 75px;
     margin-bottom: 10px;
+    border: dotted;
 }
 
 #navigation{
@@ -13,7 +14,8 @@
 
 #content{
     float: right;
-    width: 79%;
+    width: 78%;
+    margin-left: 1%;
     border: dotted;
     margin-bottom: 10px;
 }
