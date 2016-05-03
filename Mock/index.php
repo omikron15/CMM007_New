@@ -19,6 +19,8 @@
 
 
 <div id = "navigation"> <br>
+    <a href="showbugs.php">All Bug Items</a> <br>
+    <br>
     <a href="showbugs.php">Android Bugs</a> <br>
     <br>
     <a href="showbugs.php">iOS Bugs</a> <br>
