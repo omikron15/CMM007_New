@@ -1,58 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add Bugs</title>
-    <link type = "text/css" rel="stylesheet" href="stylesheet.css" />
-</head>
-<body>
+<?php
 
+include ("connection.php");
 
-<div id = "header">
+$Name = $_POST["Name"];
+$Summary = $_POST["Summary"];
+$Category = $_POST["Category"];
 
-    <img src="http://s32.postimg.org/yt4i6o02d/logo.png">
-    <h1>Bug Tracker</h1>
-    <p>Keeping track of all the little pesky bugs</p>
+$sql = "INSERT INTO bugs (bugName, bugSummary, bugCategory) VALUES ('$Name', '$Summary' '$Category')";
 
+if (mysqli_query($db, $sql)) {
 
-</div>
+}else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($db);
+}
 
+header("location:index.php");
 
-<div id = "navigation"> <br>
-    <a href="showbugs.html">Android Bugs</a> <br>
-    <br>
-    <a href="showbugs.html">iOS Bugs</a> <br>
-    <br>
-    <a href="showbugs.html">Windows Bugs</a> <br>
-    <br>
-    <a href="addbugs.html">Insert Bugs</a> <br>
-    <br>
-
-</div>
-
-
-<div id = content>
-
-    <div class="BugForm">
-
-        <form>
-            <label>Bug Name</label> <input type="text" name="Name" required> <br>
-            <label>Bug Summary</label> <input type="text" name="Summary" required> <br>
-            <label>Bug Category</label> <input type="text" name="Category" required> <br>
-            <input id = button type="submit" value="submit">
-        </form>
-
-    </div>
-
-</div>
-
-
-<div id = "footer">
-
-    <p> Designed by Connor Rose, 2016</p>
-
-</div>
-
-
-</body>
-</html>
+?>
