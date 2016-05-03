@@ -33,17 +33,28 @@
 
 <div id = content>
 
-    <div id = showcontent>
-        <textarea> blah blah blah</textarea> <br>
-        <textarea> blah blah blah</textarea> <br>
-        <textarea> blah blah blah</textarea> <br>
-    </div>
+    <?
+    include ("connection.php");
+    $sql_query = "SELECT * FROM bugs";
+    $result = $db->query($sql_query);
 
-    <div id = showcontent2>
-        <textarea> blah blah blah</textarea> <br>
-        <textarea> blah blah blah</textarea> <br>
-        <textarea> blah blah blah</textarea> <br>
-    </div>
+    while($row = $result->fetch_array())
+    {
+    $Name = $row["Name"];
+    $Summary = $row["Summary"];
+    $Category = $row["Category"];
+    }
+
+    echo "<div id = showcontent>
+        <textarea>$Name</textarea> <br>
+        <textarea>$Summary</textarea> <br>
+        <textarea>$Category</textarea> <br>
+    </div>"
+
+
+    ?>
+
+
 
 
 </div>
