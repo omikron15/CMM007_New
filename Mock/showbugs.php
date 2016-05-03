@@ -45,11 +45,7 @@
     $Category = $row["Category"];
     }
 
-    echo "<div id = showcontent>
-        <textarea>$Name</textarea> <br>
-        <textarea>$Summary</textarea> <br>
-        <textarea>$Category</textarea> <br>
-    </div>"
+    echo "{$Name} <br>"
 
 
     ?>
