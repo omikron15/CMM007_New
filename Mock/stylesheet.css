@@ -75,3 +75,7 @@ form {
 label{
     text-align: left;
 }
+
+input {
+    float: right;
+}
