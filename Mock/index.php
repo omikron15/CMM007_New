@@ -27,7 +27,7 @@
     <br>
     <a href="showbugs.php">Windows Bugs</a> <br>
     <br>
-    <a href="addbugs.php">Insert Bugs</a> <br>
+    <a href="addbugs.html">Insert Bugs</a> <br>
     <br>
 
 </div>
