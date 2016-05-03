@@ -85,17 +85,13 @@ textarea {
 #showcontent {
     margin-top: 15px;
     margin-left: 15px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right:none ;
+    border-bottom: solid  black;
 
 }
 
 #showcontent2 {
     margin-top: 15px;
     margin-left: 15px;
-
     border-bottom: solid  black;
 
 }
