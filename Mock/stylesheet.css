@@ -68,8 +68,10 @@ a {
 form {
     margin-top: 15px;
     margin-left: 15px;
+
+
 }
 
-input{
-    text-align: right;
+label{
+    text-align: left;
 }
