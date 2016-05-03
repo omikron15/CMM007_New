@@ -32,7 +32,6 @@ img{
 }
 
 #heading{
- position: absolute;
-    margin-left: 20px;
+ float: left;
 }
 
