@@ -5,11 +5,11 @@
 }
 
 #navigation{
-
+float: left;
 }
 
 #content{
-
+float: right;
 }
 
 #footer{
